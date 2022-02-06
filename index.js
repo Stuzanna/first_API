@@ -1,6 +1,11 @@
-const app = require('express')(); //App is the API we're building
+const express = require('express'); 
+const app = express();
+//App is the API we're building
 //Import the Express package, brackets to intialise it
 const PORT = 8080; //Defined endpoint for the API
+
+app.use( express.json() ) //middleware to make request go through, 
+//converting body to JSON to make it available in our POST callback
 
 //Listen will fire up the API, listen on a port
 app.listen(
