@@ -1,0 +1,88 @@
+{
+	"info": {
+		"_postman_id": "e92ab59b-62a4-4735-9d83-66c5948ebfc4",
+		"name": "First API Tutorial",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080",
+					"host": [
+						"localhost"
+					],
+					"port": "8080"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/tshirt",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/tshirt",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tshirt"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/tshirt/23",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"logo\": \"this is my logo\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/tshirt/23",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tshirt",
+						"23"
+					],
+					"query": [
+						{
+							"key": "logo",
+							"value": "This is my logo",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Trying to post with an id, first effort was 23."
+			},
+			"response": []
+		}
+	]
+}
