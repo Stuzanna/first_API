@@ -6,5 +6,5 @@ const PORT = 8080; //Defined endpoint for the API
 app.listen(
     PORT,
     () => console.log(`it's alive on http://localhost:${PORT}`)
-//Optinal callback to let us know when it's ready
-    )
+//Optional callback to let us know when it's ready
+)
