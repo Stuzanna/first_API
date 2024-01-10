@@ -1,5 +1,5 @@
 # first_API
-Creating my first API following the Fireship example. https://youtu.be/-MTSQjw5DrM
+Creating my first API following the [Fireship example](https://youtu.be/-MTSQjw5DrM).
 
 This app was largely based on the Fireship tutorial, but interactions done using
 Postman instead. This required some adjustment as detailed below.
