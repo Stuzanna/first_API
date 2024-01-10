@@ -17,7 +17,11 @@ Postman instead. This required some adjustment as detailed below.
 1. Set the port to act out of, and a few commands to prop this up. There are several long comments walking through some of the code
 1. Created some endpoints for basic interaction
 1. Rework existing 'app' setup to create middleware that would parse info as JSON, this is quite straightforward using Express
-1. Extend the t-shirt example used for a more full API POST call. This can be tested in postman
+1. Extend the t-shirt example used for a more full API POST call
+
+## Run the app
+
+`node .` in the directory with `index.js`.
 
 # Postman instead of Insomnia
 The steps covered in the video tutorial show you selecting JSON for the body, it's slightly different in Postman, a possible issue.
